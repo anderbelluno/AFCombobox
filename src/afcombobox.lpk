@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="5">
+    <Name Value="afcombobox"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="../lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="Componente TAFCombobox herdado de TComboBox"/>
+    <Version Major="1" Release="0" Minor="0" Build="0"/>
+    <Files Count="3">
+      <Item1>
+        <Filename Value="uAFCombobox.pas"/>
+        <HasRegisterProc Value="False"/>
+        <UnitName Value="uAFCombobox"/>
+      </Item1>
+      <Item2>
+        <Filename Value="AFComboboxReg.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="AFComboboxReg"/>
+      </Item2>
+      <Item3>
+        <Filename Value="AFComboboxPropEdits.pas"/>
+        <HasRegisterProc Value="False"/>
+        <UnitName Value="AFComboboxPropEdits"/>
+      </Item3>
+    </Files>
+    <RequiredPkgs Count="3">
+      <Item1>
+        <PackageName Value="FCL"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="IDEIntf"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="LCL"/>
+      </Item3>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

@@ -202,6 +202,12 @@ AFCombobox/
 
 ---
 
+## 💬 Telegram
+
+Join our community on Telegram: [https://t.me/badgerbrasil](https://t.me/badgerbrasil)
+
+---
+
 ## License
 
 MIT License — Copyright (c) 2026 Anderson Fiori. See [LICENSE](LICENSE).
